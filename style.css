@@ -1,0 +1,76 @@
+/* 기본 초기화 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* 헤더 */
+header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* 네비게이션 메뉴 */
+nav {
+  background: #333;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background: #555;
+}
+
+/* 본문 컨테이너 */
+.container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 각 섹션 */
+section {
+  margin-bottom: 2rem;
+}
+
+/* 푸터 */
+footer {
+  background-color: #4a90e2;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+
+  nav a {
+    text-align: center;
+    padding: 1rem;
+    border-top: 1px solid #444;
+  }
+}
