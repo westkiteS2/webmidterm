@@ -487,23 +487,6 @@ body.login-page {
   transition: background 0.3s;
 }
 
-/* 로그인 버튼 */
-.login-buttons button[type='submit'] {
-  background-color: #5c8df6;
-  color: white;
-}
-
-/* 취소 버튼 */
-.login-buttons button[type='reset'] {
-  background-color: #ddd;
-  color: #333;
-}
-
-/* 버튼 hover 효과 */
-.login-buttons button:hover {
-  opacity: 0.9;
-}
-
 /*team*/
 /* 기본 레이아웃 설정 */
 body {
