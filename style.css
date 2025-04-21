@@ -586,10 +586,16 @@ h2 {
 
   /* 네비게이션 메뉴 항목 세로로 배치 */
   .navbar .nav {
-    flex-direction: column;
+    display: flex; /* flex를 적용 */
+    flex-direction: column; /* 세로로 쌓이게 함 */
     width: 100%;
     gap: 10px;
     margin-top: 10px;
+  }
+
+  /* 각 네비게이션 항목을 블록처럼 만들기 */
+  .navbar .nav li {
+    display: block; /* 항목을 블록 형태로 표시 */
   }
 
   /* 네비게이션 바 로고 아래 여백 */
@@ -602,6 +608,7 @@ h2 {
     padding: 12px 0;
     text-align: left;
     font-size: 18px;
+    width: 100%; /* 링크 전체 폭으로 확장 */
   }
 
   /* 본문 내용이 네비게이션 바에 가려지지 않도록 여백 추가 */
